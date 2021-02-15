@@ -116,9 +116,9 @@ class VideoClipViewer extends Application {
       }
     })
 
-    html.find("#video").on('ended', function () {
-      parent.close()
-    })
+    // html.find("#video").on('ended', function () {
+    //   parent.close()
+    // })
   }
 }
 
