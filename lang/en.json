@@ -1,0 +1,11 @@
+{
+    "videoClipViewer": {
+        "notifications": {
+            "error": "Error initializing tools list"
+        },
+        "gm": {
+            "name": "Video Clip Viewer",
+            "title": "Send Video Clip"
+        }
+    }
+}
