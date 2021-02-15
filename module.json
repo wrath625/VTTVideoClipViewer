@@ -1,0 +1,21 @@
+{
+	"name": "videoclipviewer",
+	"title": "Video Clip Viewer",
+	"description": "Open a video clip on every participants screen.",
+	"version": "0.0.1",
+	"author": "wrath625",
+	"esmodules": ["videoclip.js"],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"socket": true,
+	"url": "https://github.com/wrath625/VTTVideoClipViewer",
+	"manifest": "https://raw.githubusercontent.com/wrath625/VTTVideoClipViewer/master/module.json",
+	"download": "https://github.com/wrath625/VTTVideoClipViewer/releases/latest/download/videoclipviewer.zip",
+	"minimumCoreVersion": "0.5.5",
+	"compatibleCoreVersion": "0.7.9"
+}
