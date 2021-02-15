@@ -2,7 +2,7 @@
 	"name": "videoclipviewer",
 	"title": "Video Clip Viewer",
 	"description": "Open a video clip on every participants screen.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "wrath625",
 	"esmodules": ["videoclip.js"],
 	"languages": [
