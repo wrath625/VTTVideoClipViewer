@@ -1,8 +1,6 @@
 Hooks.once("init", () => {
   // socket
-  console.log('registering socket')
   game.socket.on("module.videoclipviewer", (data) => {
-    console.log('got data')
     if (data.path) {
       new VideoClipViewer({
         baseApplication: "VideoClipViewer",
@@ -54,7 +52,7 @@ Hooks.on("getSceneControlButtons", (controls) => {
   controls.push({
     name: "Video Clip Viewer",
     title: "Video Clip Viewer",
-    layer: "ControlsLayer",
+    layer: "controls",
     icon: "far fa-file-video",
     tools: tools,
   });
@@ -123,7 +121,6 @@ class VideoClipViewer extends Application {
 }
 
 function sendClip(path) {
-  console.log(game.socket)
   game.socket.emit("module.videoclipviewer", {
     path: path,
   });
